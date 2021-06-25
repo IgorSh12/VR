@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="./Style/bootstrap-5.0.0-beta2-dist/bootstrap-5.0.0-beta2-dist/css/bootstrap.css">
+</head>
+<body class="bg1">
+    <div class="bg">
+        <div class="registr">
+            <div class="container">
+            <form name="contact_form" method="post" action="dumb.htm" class="form">
+            
+            <h1>Пожалуйста введите ваши данные.</h1>
+            
+            <p>ваше имя: <input class="input" type="text" name="contact_name"></p>
+            
+            <p>ваш пол: <input class="input" type="radio" name="gender" value="male"> мужской
+              <input class="input" type="radio" name="gender" value="female"> женский</p>
+            
+            <p>ваш возраст:
+            
+            <select class="input" name="age">
+            <option value="">выберите одну из опций:</option>
+            <option value="0-18 years">0-18 лет</option>
+            <option value="18-30 years">18-30 лет</option>
+            <option value="30-45 years">30-45 лет</option>
+            <option value="45-60 years">45-60 лет</option>
+            <option value="60+ years">60+ лет</option>
+            </select>      
+            </p><p>вы согласны с пользовательским соглашением?
+            <input class="input" type="checkbox" name="terms" value="yes"> да
+            
+            </p><p><input class="input" type="submit" name="send" value="отправить данные"></p>
+            <div class="fail"></div>
+            </form>
+            <br>
+            <form>
+                <div class="form-group">                  
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">                 
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form> 
+            
+            <form>                     
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">Было ли приятным посещениенашего сайта?</label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>Да</option>
+                        <option>Нет</option>
+                        
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Комментарий</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div>Если у вас есть идеи для нас:</div>
+                <div class="form-group">
+                    <label for="exampleFormControlFile1">Загрузить файл</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+            </form>  
+            
+           
+            <div class="forma">
+                    <h3>Что вам понравилось в статье?</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                        Простота
+                    </label>
+                </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Содержание
+                    </label>
+                </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                    <label class="form-check-label" for="defaultCheck2">
+                        Ясность
+                    </label>
+                </div>
+        
+                <h3>Хотите ли вы увидеть новую статью от нас?</h3>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">
+                        Да
+                    </label>
+                </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label" for="exampleRadios2">
+                        Нет
+                    </label>
+                </div>
+                    <button type="submit" class="btn btn-primary">Проверить</button>
+                </div>
+
+            </div>
+       
+
+        
+        </div> 
+</div>
+
+
+<script src="./form.js"></script> 
+</body>
+</html>

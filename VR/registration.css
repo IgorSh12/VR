@@ -1,0 +1,65 @@
+*, 
+*::before
+*::after{
+    box-sizing: content-box;
+    text-decoration: none;
+    color: white;
+  
+}
+
+.bg1{
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(90deg, #2f2fa2, #242582);
+}
+
+.registr{
+    padding-left: 35%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.container form{
+    color: white;
+    border-radius: 30px;
+    background-color: #3535a1;
+    padding: 30px;
+    padding-top: 50px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+form{
+    border-radius: 30px;
+    background-color: #3535a1;
+    padding: 30px;
+    padding-top: 50px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+small{
+    color: white;
+}
+label{
+    color: white;
+}
+button{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #9a63c3, #F64C72);
+}
+
+
+.forma{
+    border-radius: 30px;
+    background-color: #3535a1;
+    padding: 30px;
+    padding-top: 50px;
+    width: 500px;
+    height: 350px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
